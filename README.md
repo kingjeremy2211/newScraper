@@ -4,7 +4,7 @@ Uses Cheerio to scrape news articles from a site and allows the user to make com
 
 ## Getting Started
 
-Check out the heroku deployed app:  'https://future-heroku-link.com'
+Check out the heroku deployed app:  'https://intense-bayou-80892.herokuapp.com/'
 
 ## Screen Shots
 

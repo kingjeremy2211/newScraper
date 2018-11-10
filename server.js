@@ -21,13 +21,22 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 //connect to MongoDB
-//mongoose.connect('mongodb://future heroku link');
+const databaseUri = 'mongodb://localhost/scraped_news';
 
-mongoose.connect('mongodb://localhost/scraped_news');
+if (process.env.MONGODB_URI) {
 
+  mongoose.connect(process.env.MONGODB_URI);
+
+} else {
+
+mongoose.connect(databaseUri);
+
+}
 
 const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on('error', (err) => {
+  console.log('Mongoose Error: ', err);
+});
 db.once('open', () => {
   console.log('Connected to Mongoose!');
 });
