@@ -33,7 +33,7 @@ Add comments by filling in the form
 
 ```
 - Node.js - Download the latest version of Node https://nodejs.org/en/
-- Materialize - Add CDN link http://materializecss.com/getting-started.html
+- Materialize - Add CDN link: https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css
 ```
 
 ## Built With
