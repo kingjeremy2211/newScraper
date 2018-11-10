@@ -9,7 +9,7 @@ Check out the heroku deployed app:  'https://intense-bayou-80892.herokuapp.com/'
 ## Screen Shots
 
 ![Screen shot](public/assets/img/frontpage.png)
-Scraped news articles from The Verge
+Scraped news articles from 'The Next Web'
 
 ![Screen shot](public/assets/img/artview.png)
 Article page to read each article
